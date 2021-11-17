@@ -1,4 +1,4 @@
-<div class="grid__item width-4-12 hide-mobile toc" markdown="1">
+
 ## Table of Contents
 ### Getting Started
 
@@ -15,18 +15,12 @@
 
  - [Get More Guides]({{site.baseurl}}/guides)
 
-</div>
 
-<div class="grid__item width-8-12 width-12-12-m gs-content">
-
-<div markdown="1">
 ## Java SDK
 
 Installazione:
 - Copiare le cartelle presenti in **\\\Nas\Install\Strumenti di sviluppo\jdk** in **D:\Programmi\java**. 
-</div>
 
-<div markdown="1">
 ## Java JRE
 
 Installazione:
@@ -45,9 +39,7 @@ Installazione:
 - Premere Avanti >.
 
 - Al termine, premere Chiudi.
-</div>
 
-<div markdown="1">
 ## Maven 2.2.1
 
 Installazione:
@@ -57,9 +49,7 @@ Configurazione
 - Copiare il file **\\\Nas\Install\Strumenti di sviluppo\Maven\mvn.bat** in **D:\Programmi\apache-maven-2.2.1\bin** sovrascrivendo il file esistente.
 
 - Copiare il file **\\\Nas\Install\Strumenti di sviluppo\Maven\settings.xml** in **D:\Programmi\apache-maven-2.2.1\conf** sovrascrivendo il file esistente. 
-</div>
 
-<div markdown="1">
 ## Maven 3.0.4
 
 Installazione
@@ -79,9 +69,6 @@ Configurazione
     - **M2_REPO**:  D:\m2-repository
     - **MAVEN_OPTS**: -Xmx1024m
 
-</div>
-
-<div markdown="1">
 ## Ant
 
 Installazione
@@ -93,10 +80,7 @@ Configurazione
 - Modificare la variabile di ambiente PATH ed aggiungere **D:\Programmi\apache-ant-1.6.5\bin**.
 
 - Aggiungere la variabili di ambiente **ANT_OPTS** ed impostarla a -Xmx1024m.
-</div>
 
-
-<div markdown="1">
 ## Eclipse 4.5 Java EE IDE
 
 - Installazione e configurazione dell'ambiente.
@@ -106,9 +90,7 @@ Configurazione
 - configurazione della JDK o JRE java in Eclipse.
 
 <a href="{{site.baseurl}}/guides/getting-started" class="button-cta secondary">LEGGI LA GUIDA</a>
-</div>
 
-<div markdown="1">
 ## Angular
 
 - Installazione e configurazione dell'ambiente e dell'IDE.
@@ -120,9 +102,7 @@ Configurazione
 - Istuzioni su come far partire il progetto.
 
 <a href="{{site.baseurl}}/guides/angular" class="button-cta secondary">LEGGI LA GUIDA</a>
-</div>
 
-<div markdown="1">
 ## Quick Start Pet Shop POC
 
 - Installazione e configurazione dell'ambiente e dell'IDE.
@@ -134,8 +114,6 @@ Configurazione
 - Istuzioni su come far partire il progetto.
 
 <a href="{{site.baseurl}}/guides/quick-start-pet-shop-poc" class="button-cta secondary">LEGGI LA GUIDA</a>
-</div>
-
 
 
 
