@@ -55,18 +55,18 @@ Una volta all'interno dovete aprire la cartella con VS code nei seguenti modi:
 
 <p style="text-align: center;">
    <img src="./images/apri-progetto-1-modo.png">
-   <em>Figura 1. Primo modo sa file</em>
 </p>
+<em>Figura 1. Primo modo sa file</em>
 <br><br>
 <p style="text-align: center;">
    <img src="./images/apri-progetto-2-modo.png">
-   <em>Figura 2. Secondo modo da VS code</em>
 </p>
+<em>Figura 2. Secondo modo da VS code</em>
 <br><br>
 <p style="text-align: center;">
    <img src="./images/apri-progetto-3-modo.png">
-   <em>Figura 3. Terzo modo da terminale</em>
 </p>
+<em>Figura 3. Terzo modo da terminale</em>
 <br><br>
 
 la struttura del progetto è spiegata nella guida di link: [Angular](/angular/)
