@@ -81,11 +81,11 @@ Una volta all'interno dovete aprire la cartella con VS code nei seguenti modi:
 --
 [.left]
 .Primo modo da file
-image::apri-progetto-1-modo.png[Primo modo,240,180]
+image::apri-progetto-1-modo.png[Primo modo]
 
 [.center]
 .Secondo modo da VS code
-image::apri-progetto-2-modo.png[Secondo modo,240,180]
+image::apri-progetto-2-modo.png[Secondo modo]
 
 [.right]
 .Terzo modo da terminale
