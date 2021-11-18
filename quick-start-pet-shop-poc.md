@@ -36,7 +36,9 @@ Potete scaricare il progetto dal sequente link [Scarica progetto](https://github
 
 La struttura del progetto una volta scaricato sarà la seguente:
 
-![Struttura](./images/struttura.png)
+<p style="text-align: center;">
+   <img src="./images/struttura.png">
+</p>
 
 ## Front-end
 
@@ -51,14 +53,20 @@ Per accedere al front-end dovete andare al seguente path:
 
 Una volta all'interno dovete aprire la cartella con VS code nei seguenti modi:
 
-Primo modo da file
-![Primo modo](./images/apri-progetto-1-modo.png)
+<p style="text-align: center;">
+   <img src="./images/apri-progetto-1-modo.png">
+   <em>Figura 1. Primo modo sa file</em>
+</p>
 <br><br>
-Secondo modo da VS code
-![Secondo modo](./images/apri-progetto-2-modo.png)
+<p style="text-align: center;">
+   <img src="./images/apri-progetto-2-modo.png">
+   <em>Figura 2. Secondo modo da VS code</em>
+</p>
 <br><br>
-Terzo modo da terminale
-![Terzo modo](./images/apri-progetto-3-modo.png)
+<p style="text-align: center;">
+   <img src="./images/apri-progetto-3-modo.png">
+   <em>Figura 3. Terzo modo da terminale</em>
+</p>
 <br><br>
 
 la struttura del progetto è spiegata nella guida di link: [Angular](/angular/)
