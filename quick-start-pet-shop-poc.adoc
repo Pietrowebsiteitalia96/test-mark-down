@@ -52,7 +52,7 @@ Per completare la quida, avrai bisogno:
 * Visual Studio Code
 * Avere installata la versione JDK {jdk-version} e aver configurato in modo appropriato la `JAVA_HOME`
 * Apache Maven {maven-version}
-* Installare Node dal seguente link link:{node-url}[Scarica node]
+* Installare Node dal seguente link link:{node-url}[Scarica node, window=_blank]
 * Installare l'Angular cli
 +
 [source,bash,subs=attributes+]
@@ -75,7 +75,7 @@ mvn --version
 
 == Struttura del progetto e dove scaricarlo
 
-Potete scaricare il progetto dal sequente link link:{poc-url}[Scarica progetto]
+Potete scaricare il progetto dal sequente link link:{poc-url}[Scarica progetto, window=_blank]
 
 La struttura del progetto una volta scaricato sarà la seguente:
 
@@ -104,7 +104,7 @@ image::apri-progetto-2-modo.png[Secondo modo, align=center]
 image::apri-progetto-3-modo.png[Terzo modo, align=center]
 {empty} +
 
-la struttura del progetto è spiegata nella guida di link:{angular-guide-url}[Angular]
+la struttura del progetto è spiegata nella guida di link:{angular-guide-url}[Angular, window=_blank]
 
 * Dopo l'importazione si deve eseguire il comando :
 
@@ -139,7 +139,7 @@ Per avviare il progetto basta eseguire il comando:
 ng serve
 ----
 
-e una volta che le operazioni si sono concluse andare su {angular-localhost-url}
+e una volta che le operazioni si sono concluse andare su link:{angular-localhost-url}[ window=_blank]
 
 === Come testare il progetto
 
