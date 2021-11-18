@@ -117,7 +117,7 @@ npm install
 +
 per scaricare tutte le dipendenze necessarie scritte nel file `package.json`
 
-=== Come effettuare la build normale e automatica
+=== Come effettuare la build manuale
 
 Per avviare il progetto basta eseguire il comando: 
 
@@ -126,6 +126,8 @@ Per avviare il progetto basta eseguire il comando:
 ng build
 ----
 e verificare che si crei la cartella www
+
+=== Come effettuare la build automatica
 
 
 === Come avviare il progetto in locale
