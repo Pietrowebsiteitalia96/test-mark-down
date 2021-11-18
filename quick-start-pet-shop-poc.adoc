@@ -10,6 +10,7 @@ Variabili
 :poc-url: https://github.com/Pietrowebsiteitalia96/test-mark-down
 :node-url: https://nodejs.org/it/download/
 
+:angular-localhost-url: http://localhost:4200/
 :angular-guide-url: angular
 ////
 Fine Variabili
@@ -53,7 +54,6 @@ Per completare la quida, avrai bisogno:
 * Apache Maven {maven-version}
 * Installare Node dal seguente link link:{node-url}[Scarica node]
 * Installare l'Angular cli
-
 +
 [source,bash,subs=attributes+]
 ----
@@ -73,17 +73,18 @@ mvn --version
 
 ====
 
-
-== Front-end
-
-
-=== Struttura del progetto 
+== Struttura del progetto e dove scaricarlo
 
 Potete scaricare il progetto dal sequente link link:{poc-url}[Scarica progetto]
 
 La struttura del progetto una volta scaricato sarà la seguente:
 
 image::struttura.png[alt=Struttura, align=center]
+
+== Front-end
+
+
+=== Struttura del progetto 
 
 Per accedere al front-end dovete andare al seguente path:
 
@@ -92,15 +93,15 @@ image::percorso-front-end.png[alt=Percorso front-en, align=center]
 Una volta all'interno dovete aprire la cartella con VS code nei seguenti modi:
 
 .Primo modo da file
-image::apri-progetto-1-modo.png[alt=Primo modo, align=left]
+image::apri-progetto-1-modo.png[alt=Primo modo, align=center]
 {empty} +
 
 .Secondo modo da VS code
-image::apri-progetto-2-modo.png[Secondo modo, align=left]
+image::apri-progetto-2-modo.png[Secondo modo, align=center]
 {empty} +
 
 .Terzo modo da terminale
-image::apri-progetto-3-modo.png[Terzo modo, align=left]
+image::apri-progetto-3-modo.png[Terzo modo, align=center]
 {empty} +
 
 la struttura del progetto è spiegata nella guida di link:{angular-guide-url}[Angular]
@@ -116,7 +117,16 @@ npm install
 +
 per scaricare tutte le dipendenze necessarie scritte nel file `package.json`
 
-=== Come effettuare la build normale o automatica
+=== Come effettuare la build normale e automatica
+
+Per avviare il progetto basta eseguire il comando: 
+
+[source,bash]
+----
+ng build
+----
+e verificare che si crei la cartella www
+
 
 === Come avviare il progetto in locale
 
@@ -127,14 +137,17 @@ Per avviare il progetto basta eseguire il comando:
 ng serve
 ----
 
-andare sul link : http://localhost:4200/
+e una volta che le operazioni si sono concluse andare su {angular-localhost-url}
 
 === Come testare il progetto
 
 == Back-end
+Per accedere al back-end dovete andare al seguente path:
+
+image::percorso-back-end.png[alt=Percorso front-en, align=center] 
 
 === Come avviare il progetto in locale
 
+Per avviare il progetto in locale dovete eseguire il file `start-be-dev.bat`
 
-NOTE: Before running the application, don't forget to stop the hot reload mode (hit `CTRL+C`), or you will have a port conflict.
-
+NOTE: Vi verrà fatta la domanda se volete fare la build del progetto prima di far partire il back-end, Se è la prima volta dovete effettuare la build, per le volte successive è optionale
