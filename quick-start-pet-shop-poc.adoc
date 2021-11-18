@@ -83,11 +83,13 @@ Una volta all'interno dovete aprire la cartella con VS code nei seguenti modi:
 .Primo modo da file
 image::apri-progetto-1-modo.png[Primo modo,240,180]
 
+[.center]
 .Secondo modo da VS code
 image::apri-progetto-2-modo.png[Secondo modo,240,180]
 
+[.right]
 .Terzo modo da terminale
-image::apri-progetto-3-modo.png[Terzo modo,240,80]
+image::apri-progetto-3-modo.png[Terzo modo]
 --
 
 la struttura del progetto è spiegata nella guida di link:{angular-guide-url}[Angular]
