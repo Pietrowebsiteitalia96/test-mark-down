@@ -1,7 +1,4 @@
-
-= Quick Start pet shop POC
-
-include::./attributes.adoc[]
+include::attributes.adoc[]
 
 :toc: macro
 :toclevels: 4
@@ -13,36 +10,42 @@ include::./attributes.adoc[]
 :sectnums:
 :sectnumlevels: 4
 
-This guide covers:
+= Quick Start pet shop POC
 
-* Reperire i sorgenti del progetto front/back - end.
+Questa guida contiene:
+
+* Come Reperire i sorgenti del progetto front/back - end.
 * Configurazione del front-end.
 * Configurazione del back-end.
-* Build utilizzando Maven.
+* Build manuali e automatiche utilizzando Maven.
 * Lanciare l'applicazione in locale.
 
-== Prerequisites
+== Prerequisiti
 
-To complete this guide, you need:
+Per completare la quida, avrai bisogno:
 
 * Visual Studio Code
-* JDK 8+ installed with `JAVA_HOME` configured appropriately
+* Avere installata la versione JDK {jdk-version} e aver configurato in modo appropriato la `JAVA_HOME`
 * Apache Maven {maven-version}
 
 [TIP]
-.Verify Maven is using the Java you expect
+.Verifica che Maven stia utilizzando la versione di Java che ti aspetti
 ====
-If you have multiple JDK's installed it is not certain Maven will pick up the expected java
-and you could end up with unexpected results.
-You can verify which JDK Maven uses by running `mvn --version`. 
-====
+Se hai installato più JDK, non è certo che Maven rilevi la giusta versione di java e potresti ottenere risultati inaspettati.
+Puoi verificare quale versione di Maven  stai utilizzando eseguendo 
 
+[source,bash]
+----
+mvn --version
+----
+
+====
 
 == Struttura del sorgente
 
 La struttura del progetto una volta scaricato sarà la seguente:
 
-image::quick-start-pet-shop-poc/struttura.png[alt=Struttura, align=center]
+image::struttura.png[alt=Struttura, align=center]
 
 
 == Struttura Front-end
@@ -51,7 +54,6 @@ Per accedere al front-end dovete andare al seguente path:
 image::quick-start-pet-shop-poc/percorso-front-end.png[alt=Percorso front-en, align=center]
 
 Una volta all'interno dovete aprire la cartella con VS code, la struttura del progetto è spiegata nella guida di link:{angular-guide-url}[Angular]
-
 
 == Bootstrapping the project
 

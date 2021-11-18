@@ -1,9 +1,8 @@
-:imagesdir: /guides/images
+:imagesdir: /images
 
-:project-name: Quarkus
-:quarkus-version: 2.4.2.Final
 
 :maven-version: 3.8.1+
+:jdk-version: 8+
 :graalvm-version: 21.2.0
 :graalvm-flavor: 21.2.0-java11
 :mandrel-flavor: 21.2-java11
