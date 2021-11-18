@@ -1,5 +1,21 @@
-include::attributes.adoc[]
 
+////
+Variabili
+////
+
+:maven-version: 3.0.4+
+:jdk-version: 8+
+
+:poc-url: https://github.com/Pietrowebsiteitalia96/test-mark-down
+:angular-guide-url: angular
+////
+Fine Variabili
+////
+
+////
+Impostazioni aggiuntive style
+////
+:imagesdir: ./images
 :toc: macro
 :toclevels: 4
 :doctype: book
@@ -10,17 +26,22 @@ include::attributes.adoc[]
 :sectnums:
 :sectnumlevels: 4
 
+////
+Fine Impostazioni aggiuntive style
+////
+
 = Quick Start pet shop POC
 
 Questa guida contiene:
 
-* Come Reperire i sorgenti del progetto front/back - end.
+* Come reperire i sorgenti del progetto front/back - end.
 * Configurazione del front-end.
 * Configurazione del back-end.
 * Build manuali e automatiche utilizzando Maven.
 * Lanciare l'applicazione in locale.
 
 == Prerequisiti
+
 
 Per completare la quida, avrai bisogno:
 
@@ -41,25 +62,57 @@ mvn --version
 
 ====
 
-== Struttura del sorgente
+== Struttura del progetto
+
+Potete scaricare il progetto dal sequente link link:{poc-url}[Scarica progetto]
 
 La struttura del progetto una volta scaricato sarà la seguente:
 
 image::struttura.png[alt=Struttura, align=center]
 
-
 == Struttura Front-end
 Per accedere al front-end dovete andare al seguente path:
 
-image::quick-start-pet-shop-poc/percorso-front-end.png[alt=Percorso front-en, align=center]
+image::percorso-front-end.png[alt=Percorso front-en, align=center]
 
-Una volta all'interno dovete aprire la cartella con VS code, la struttura del progetto è spiegata nella guida di link:{angular-guide-url}[Angular]
+Una volta all'interno dovete aprire la cartella con VS code nei seguenti modi:
 
-== Bootstrapping the project
+[.float-group]
+--
+[.left]
+.Primo modo da file
+image::apri-progetto-1-modo.png[Primo modo,240,180]
 
-The easiest way to create a new Quarkus project is to open a terminal and run the following command:
+.Secondo modo da VS code
+image::apri-progetto-2-modo.png[Secondo modo,240,180]
 
-For Linux & MacOS users
+.Terzo modo da terminale
+image::apri-progetto-3-modo.png[Terzo modo,240,80]
+--
+
+la struttura del progetto è spiegata nella guida di link:{angular-guide-url}[Angular]
+
+
+
+== Primi passi dopo l'importazione
+
+* Dopo l'importazione si deve eseguire il comando :
+
++
+[source,bash]
+----
+npm install
+----
+
++
+per scaricare tutte le dipendenze necessarie scritte nel file `package.json`
+
+
+* secondo passo :
+
++ 
+testo
+
 
 [source,bash,subs=attributes+]
 ----
