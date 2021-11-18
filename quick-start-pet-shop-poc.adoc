@@ -5,8 +5,11 @@ Variabili
 
 :maven-version: 3.0.4+
 :jdk-version: 8+
+:angular-cli-version: 11.1.1
 
 :poc-url: https://github.com/Pietrowebsiteitalia96/test-mark-down
+:node-url: https://nodejs.org/it/download/
+
 :angular-guide-url: angular
 ////
 Fine Variabili
@@ -30,7 +33,6 @@ Impostazioni aggiuntive style
 Fine Impostazioni aggiuntive style
 ////
 
-[#quick-start]
 = Quick Start pet shop POC
 
 Questa guida contiene:
@@ -41,7 +43,6 @@ Questa guida contiene:
 * Build manuali e automatiche utilizzando Maven.
 * Lanciare l'applicazione in locale.
 
-[#prerequisiti]
 == Prerequisiti
 
 
@@ -50,6 +51,14 @@ Per completare la quida, avrai bisogno:
 * Visual Studio Code
 * Avere installata la versione JDK {jdk-version} e aver configurato in modo appropriato la `JAVA_HOME`
 * Apache Maven {maven-version}
+* Installare Node dal seguente link link:{node-url}[Scarica node]
+* Installare l'Angular cli
+
++
+[source,bash,subs=attributes+]
+----
+npm install -g @angular/cli@{angular-cli-version}
+----
 
 [TIP]
 .Verifica che Maven stia utilizzando la versione di Java che ti aspetti
@@ -64,10 +73,10 @@ mvn --version
 
 ====
 
-[#front-end]
+
 == Front-end
 
-[#struttura-progetto-front-end]
+
 === Struttura del progetto 
 
 Potete scaricare il progetto dal sequente link link:{poc-url}[Scarica progetto]
@@ -82,20 +91,17 @@ image::percorso-front-end.png[alt=Percorso front-en, align=center]
 
 Una volta all'interno dovete aprire la cartella con VS code nei seguenti modi:
 
-[.float-group]
---
-[.left]
 .Primo modo da file
-image::apri-progetto-1-modo.png[Primo modo]
+image::apri-progetto-1-modo.png[alt=Primo modo, align=left]
+{empty} +
 
-[.center]
 .Secondo modo da VS code
-image::apri-progetto-2-modo.png[Secondo modo]
+image::apri-progetto-2-modo.png[Secondo modo, align=left]
+{empty} +
 
-[.right]
 .Terzo modo da terminale
-image::apri-progetto-3-modo.png[Terzo modo]
---
+image::apri-progetto-3-modo.png[Terzo modo, align=left]
+{empty} +
 
 la struttura del progetto è spiegata nella guida di link:{angular-guide-url}[Angular]
 
@@ -110,16 +116,24 @@ npm install
 +
 per scaricare tutte le dipendenze necessarie scritte nel file `package.json`
 
-=== Come effettuare la build
+=== Come effettuare la build normale o automatica
 
 === Come avviare il progetto in locale
+
+Per avviare il progetto basta eseguire il comando: 
+
+[source,bash]
+----
+ng serve
+----
+
+andare sul link : http://localhost:4200/
 
 === Come testare il progetto
 
 == Back-end
 
 === Come avviare il progetto in locale
-
 
 
 NOTE: Before running the application, don't forget to stop the hot reload mode (hit `CTRL+C`), or you will have a port conflict.
