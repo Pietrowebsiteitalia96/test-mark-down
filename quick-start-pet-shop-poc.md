@@ -89,7 +89,23 @@ ng build
 ```
 e verificare che si crei la cartella www
 
-### Come effettuare la build automatica
+### Come effettuare la build automatica del web
+
+Per effettuare la build dobbiamo andare nella cartella che contiene il pom e lanciamo il comando
+
+```console
+mvn build
+```
+
+il pom contiene tutti le istruzzioni che maven deve compiere per poter creare la build, in particolare vengono eseguiti i seguenti passaggi :
+
+1. Effettua il comando `npm install` per installare tutte le dipendenze poichè la build automatica potrebbe essere lanciata anche da altri operatori o da altri sistemi (come Jenkins)
+
+2. Cancella il contenuto della cartella www, che contiene tutti i file compressi e compilati dell'ultima build
+
+3. Aggiunge delle configurazioni extra che permettono di ottimizzare e migliorare la build.
+
+4. Effettua la build creando un file zip
 
 
 ### Come avviare il progetto in locale
@@ -101,8 +117,6 @@ ng serve
 ```
 
 e una volta che le operazioni si sono concluse andare su http://localhost:4200/
-
-### Come testare il progetto
 
 ## Back-end
 Per accedere al back-end dovete andare al seguente path:
